@@ -68,10 +68,10 @@ def main():
 
         short_code = input().lower()
 
-        if short_code == 'ad':
+        if short_code == 'as':
             print("New User")
             print("-"*10)
-            print("Hey There!!! What site do you want to create an account for?")
+            print("Hey There! What account do you want to create?")
             site = input()
             print(f"Aah!! So you love {site}?")
 
@@ -93,8 +93,8 @@ def main():
             print("Enter Password ...")
             pword = input()
 
-            save_user(create_user(f_name, l_name, p_number, e_address))  # create and save new user account.
-            save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
+            save_user(create_user(f_name, l_name, p_number, e_address))
+            save_cred(create_credential(user_name, pword, e_address))  
             print('\n')
             print(f" A new {site} account by {f_name} {l_name} has successfully been created")
             print(f" The username is {user_name} and the password is {pword}")
@@ -125,14 +125,14 @@ def main():
             s = "abcdefghijklmnopqrstuvwxyzABC!@#$%^&*()?DEFGHIJKLMNO01234567890PQRSTUVWXYZ"
             pword = "".join(random.sample(s, 8))
 
-            save_user(create_user(f_name,l_name,p_number,e_address))  # create and save new user account.
-            save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
+            save_user(create_user(f_name,l_name,p_number,e_address))  
+            save_cred(create_credential(user_name, pword, e_address)) 
             print('\n')
             print(f" A new {site} account by {f_name} {l_name} has successfully been created")
             print(f" The username is {user_name} and the password is {pword}")
             print('\n')
 
-        elif short_code == 'da':
+        elif short_code == 'di':
 
             if display_user():
                 print("Here is a list of all your user accounts")
