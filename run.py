@@ -64,7 +64,7 @@ def main():
     print("Welcome to your Password Locker, choose your path from the list of allowed actions")
 
     while True:
-        print("Allowed Actions: \n ad - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n da - display all user accounts \n ex -exit the contact list \n")
+        print("Allowed Actions: \n as - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n di - display all user accounts \n ex -exit the contact list \n")
 
         short_code = input().lower()
 
