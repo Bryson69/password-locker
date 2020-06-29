@@ -35,7 +35,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - TerminalCLI(Command Line Interface)
 
 ### License
-*MIT License
+MIT License
 
 Copyright (c) [2020] [Bryson Mundia]
 
