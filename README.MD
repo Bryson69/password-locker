@@ -1,4 +1,5 @@
-# Author
+# The Password Locker
+## Author
 ### **Bryson Mundia.**
 ## Description
 - An application whereby you can create you can create an Account.
