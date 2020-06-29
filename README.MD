@@ -8,6 +8,17 @@ To run the application in your terminal:
 - Clone Repository on Local Machine (live link to project)
 - cd into Directory  cd media-query-practice.
 - Open the media.html on the browser.
+
+ 
+## Behavior Driven Development
+  
+
+  | Given                 | When                       | Then                              |
+  | ----------------------|:--------------------------:|:---------------------------------:|
+  | allowed actions       | a user types in an action  | the program performs the action    |
+ 
+
+
 ## Known Bugs
 Want to contribute? Great!
 To fix a bug or enhance an existing module, follow these steps:
