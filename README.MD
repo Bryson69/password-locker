@@ -1,12 +1,12 @@
 # Author
-### **Bryson Mundia**
+### **Bryson Mundia.**
 ## Description
-- An application whereby you can create you can create an Account
+- An application whereby you can create you can create an Account.
 ## Setup/Installation Requirements
 To run the application in your terminal:
 - Clone Repository on Local Machine (live link to project)
-- cd into Directory  cd media-query-practice
-- Open the media.html on the browser
+- cd into Directory  cd media-query-practice.
+- Open the media.html on the browser.
 ## Known Bugs
 Want to contribute? Great!
 To fix a bug or enhance an existing module, follow these steps:
