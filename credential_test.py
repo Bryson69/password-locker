@@ -6,7 +6,7 @@ class TestUSer(unittest.TestCase):
     def setUp(self):
 
         """
-        Set up method to run before eah testcase
+        Set up method to run before each testcase
         """
 
         self.new_credential = Credential("user_name","password","email@ms.com")
@@ -24,8 +24,9 @@ class TestUSer(unittest.TestCase):
         """
 
         self.assertEqual(self.new_credential.user_name, "user_name")
-        self.assertEqual(self.new_credential.password, "password")
         self.assertEqual(self.new_credential.email, "email@ms.com")
+        self.assertEqual(self.new_credential.password, "password")
+       
 
 
             #saving credential
