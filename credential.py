@@ -7,12 +7,13 @@ class Credential:
 
     def __init__(self,user_name,password,email):
         self.user_name = user_name
-        self.password = password
         self.email = email
+        self.password = password
+       
 
     def save_credential(self):
         """
-        save_contact method saves credential object into credential array
+        save_contact method saves credential into credential array
         """
 
         Credential.credentials_array.append(self)
